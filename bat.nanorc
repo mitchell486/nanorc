@@ -10,7 +10,7 @@ icolor brightcyan "(ansi|append|assign|assoc|attrib|at|autofail|backup|basedev|b
 ## CALL BATCH FILE OR SUBROUTINE
 icolor magenta "^call :?[a-zA-Z0-9_].*$"
 ## COMPARISON OPERATORS
-icolor brightmagenta "([[:space:]]equ[[:space:]]|[[:space:]]neq[[:space:]]|[[:space:]]gtr[[:space:]]|[[:space:]]lss[[:space:]]|[[:space:]]geq[[:space:]]|[[:space:]]leq[[:space:]])"
+icolor brightmagenta "([[:space:]]equ|neq|gtr|lss|geq|leq[[:space:]])"
 color brightyellow "=="
 ## COMMENTS
 icolor brightblue "^rem.*$"
