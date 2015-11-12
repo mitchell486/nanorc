@@ -1,0 +1,21 @@
+## Here is an example for Batch scripts.
+## CREATED BY MITCH BUMGARNER ON MAY 10TH 2014
+##
+syntax "bat" "\.(bat|cmd)$"
+## PARAMETERS IN A BATCH FILE THAT ARE %X IN COMMAND LINE
+icolor brightred "%%."
+## MAJOR STATEMENTS
+icolor red "(do|else|exist|exit|for|goto|if|not|return|say|select|then|when)"
+icolor brightcyan "(ansi|append|assign|assoc|attrib|at|autofail|backup|basedev|boot|break|buffers|cache|cacls|cd|chcp|chdir|chkdsk|chkntfs|cls|cmd|codepage|color|command|compact|comp|convert|copy|date|del|dir|diskcomp|diskcopy|doskey|echo|endlocal|erase|fc|find|findstr|format|ftype|graftabl|help|keyb|label|md|mkdir|mode|more|move|path|pause|popd|print|prompt|pushd|rd|recover|rename|ren|replace|restore|rmdir|run|set|setboot|setlocal|shift|sort|start|subst|time|title|trapdump|tree|type|undelete|unpack|use|verify|ver|vol|xcopy)"
+## CALL BATCH FILE OR SUBROUTINE
+icolor magenta "^call :?[a-zA-Z0-9_].*$"
+## COMPARISON OPERATORS
+icolor brightmagenta "([[:space:]]equ[[:space:]]|[[:space:]]neq[[:space:]]|[[:space:]]gtr[[:space:]]|[[:space:]]lss[[:space:]]|[[:space:]]geq[[:space:]]|[[:space:]]leq[[:space:]])"
+color brightyellow "=="
+## COMMENTS
+icolor brightblue "^rem.*$"
+color cyan "[[:space:]]?::.*$"
+## QUOTED TEXT
+icolor brightwhite ""[^"]*""
+## VARIABLES
+icolor yellow "[[:space:]]\%.*%[[:space:]]"
