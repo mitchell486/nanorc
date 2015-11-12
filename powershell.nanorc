@@ -16,4 +16,4 @@ icolor brightwhite ""[^"]*""
 ## ANY TEXT BETWEEN %'s WHICH IS USED FOR SEARCHING
 icolor yellow "[[:space:]]\%.*%[[:space:]]"
 ## MAJOR STATEMENTS
-icolor brightcyan "([[:space:]]?if|?do|?else|?elseif|?for|?foreach|?switch|?until|?while[[:space:]])"
+icolor brightcyan "([[:space:]]if|do|else|elseif|for|foreach|switch|until|while[[:space:]])"
