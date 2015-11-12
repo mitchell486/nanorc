@@ -1,0 +1,10 @@
+These are highlight files for Nano Text Editor. They aren't the prettiest because of all the [:space:] which is required to seperate the single commands. But it's better than nothing!
+
+1. Copy files to your /usr/local/share/nano/ (MAC) or /usr/share/nano/ (LINUX).
+2. Verify permissions match other .nanorc files. Change if necessary.
+3. From terminal type "nano ~/.nanorc"
+4. Type "include /usr/local/share/nano/*.nanorc"
+5. Test on specified file type.
+
+Mitch Bumgarner
+11/12/15
