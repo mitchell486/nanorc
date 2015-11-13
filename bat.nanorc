@@ -1,5 +1,5 @@
 ##
-syntax "bat" "\.(bat|cmd)$"
+syntax "batch" "\.(bat|cmd)$"
 
 ## Parameters that are normally %x in cmd
 icolor brightred "%%."
