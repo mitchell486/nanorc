@@ -31,3 +31,5 @@ please don't read any words
 in this entire section!
 Thank you!
 #>
+
+test -eq null
