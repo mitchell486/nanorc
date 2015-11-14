@@ -25,3 +25,9 @@ this is not a comment #>
 "This is not a real quote'
 'Neither is this"
 
+<# 
+The is a comment section
+please don't read any words
+in this entire section!
+Thank you!
+#>
