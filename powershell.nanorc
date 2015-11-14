@@ -18,6 +18,7 @@ icolor brightcyan "\<(if|do|else|elseif|for|foreach|switch|until|while)\>"
 
 ## Comments
 color brightblue "(^)?(([[:space:]]?)+)#.*$"
+color brightblue start="<#" end="#>"
 
 ## Quoted text
 color brightwhite "\".*\""
