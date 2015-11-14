@@ -22,7 +22,7 @@ icolor brightblue "(^[[:space:]]*(\<rem\>|::).*$)"
 icolor brightwhite ""[^"]*""
 
 ## Variables
-icolor yellow "\%[a-zA-Z_]+[:word:]*[0-9]?\%"
+icolor yellow "\%[a-zA-Z_]+[:alnum:]*[0-9]?\%"
 
 ## Trailling whitespace
 color ,green "[[:space:]]+$"
