@@ -18,5 +18,8 @@ word$var$var2 (should match)
 test #This is a comment too.
 <#This is a comment
 that should continue #>
-
+"This is a quote"
+'This is also a quote'
+"This is not a real quote'
+'Neither is this"
 

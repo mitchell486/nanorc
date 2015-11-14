@@ -17,7 +17,8 @@ icolor brightred "(\$[a-zA-Z0-9_]+)"
 color brightblue "(^)?(([[:space:]]?)+)#.*$"
 
 ## QUOTED TEXT
-icolor brightwhite ""[^"]*""
+color brightwhite "\".*\""
+color brightwhite "\'.*\'"
 
 ## ANY TEXT BETWEEN %'s WHICH IS USED FOR SEARCHING
 icolor yellow "[[:space:]]\%.*%[[:space:]]"
