@@ -33,3 +33,4 @@ Thank you!
 #>
 
 test -eq null
+test -ne test1
