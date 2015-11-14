@@ -32,6 +32,7 @@ test              (should match white space at the end)
 cmd equ (should match certain words)
 CALL :Function (should match line)
 Call (should not match)
+CALL :_Function
 "quoted text" (Should match)
 'not a real quote' (should not match)
 
