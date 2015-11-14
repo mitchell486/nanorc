@@ -15,7 +15,6 @@ icolor brightred "(\$[a-zA-Z0-9_]+)"
 
 ## COMMENTS
 color brightblue "(^)?(([[:space:]]?)+)#.*$"
-# color brightblue "^\<"
 
 ## QUOTED TEXT
 icolor brightwhite ""[^"]*""
