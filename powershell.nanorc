@@ -21,8 +21,8 @@ color brightblue "#.*$"
 color brightblue start="<#" end="#>"
 
 ## Quoted text
-color brightwhite "(\"[^\"]*\")"
-color brightwhite "('[^']*')"
+color brightwhite "\"[^\"]*\""
+color brightwhite "'[^']*'"
 
 ## Text between %'s which is unique to searches
 icolor brightmagenta "\%[^\%]*\%"

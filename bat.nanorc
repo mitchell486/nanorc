@@ -7,7 +7,7 @@ icolor brightcyan "\<(ansi|append|assign|assoc|attrib|at|autofail|backup|basedev
 
 ## Comparison operators
 icolor brightmagenta "\<(equ|neq|gtr|lss|geq|leq)\>"
-color brightyellow "=="
+color yellow "=="
 
 ## Comments
 icolor brightblue "^[[:space:]]*(\<rem\>|::).*$"
@@ -16,7 +16,7 @@ icolor brightblue "^[[:space:]]*(\<rem\>|::).*$"
 icolor brightwhite "\"[^\"]*\""
 
 ## Variables
-icolor yellow "\%[^\%]*\%"
+icolor brightyellow "\%[^\%]*\%"
 
 ## Parameters that are normally %x in cmd
 icolor brightred "%%."

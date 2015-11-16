@@ -37,3 +37,4 @@ CALL :_Function (should match i think)
 "quoted text" (Should match)
 'not a real quote' (should not match)
 
+this == this 
