@@ -17,6 +17,7 @@ icolor brightwhite "\"[^\"]*\""
 
 ## Variables
 icolor brightyellow "\%[^\%]*\%"
+icolor brightyellow "\![^\!]*\!"
 
 ## Parameters that are normally %x in cmd
 icolor brightred "%%."
